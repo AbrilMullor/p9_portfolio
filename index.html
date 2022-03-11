@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p9_portfolio</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.name2, .home, .porfolio').mouseenter(function(){
+                $('.rec1').css("background-color","lightsalmon");
+                });
+            $('.name2, .home, .porfolio').mouseleave(function(){
+                $('.rec1').css("background-color","teal");
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="nombre"><h1>Abril Mullor</h1></div>
+    <div class="parrafo"><p>El porfolio web enlaza con los proyectos de aula realizados de las materias de sistemas de representación avanzada y recursos Interactivos aplicados a la gràfica en la easdalcoi.</p></div>
+    <div class="mifoto"><img src="img/WhatsApp Image 2022-03-10 at 4.20.13 PM.jpeg" alt=""></div>
+    <div class="rec1"></div>
+    <div class="name2"><h2>Abril Mullor</h2></div>
+    <div class="home"><h2>Home</h2></div>
+    <div class="porfolio"><a href="pages/index.html"><h2>Porfolio</h2></a></div>
+    <ul>
+        <li><a href="https://www.instagram.com/abrilmc7711/">Instagram</a></li>
+        <li><a href="https://twitter.com/MullorAbril">Twitter</a></li>
+        <li><a href="https://github.com/AbrilMullor">Github</a></li>
+        <li><a href="mailto:mullorca@easdalcoi.es">mullorca@easdalcoi.es</a></li>
+    </ul>
+</body>
+</html>
